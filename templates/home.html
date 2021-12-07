@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ホーム</title>
+    <link rel="stylesheet" href="{% static "css/home_style.css" %}"/>
+</head>
+<body>
+<div style="text-align: right">
+    <p>入室中：b301</p>
+</div>
+<div style="text-align: center">
+    <p><a href='in_confirmation' class="btn btn--in">入　室</a></p>
+    <a href='out_confirmation' class="btn btn--out">退　室</a>
+</div>
+<div style="text-align: right">
+    <a href='logout_ok' class="btn btn--logout">ログアウト</a>
+</div>
+
+</body>
+</html>

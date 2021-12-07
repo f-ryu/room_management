@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入室確認</title>
+    <link rel="stylesheet" href="{% static "css/in_confirmation_style.css" %}"/>
+</head>
+<body>
+<div style="text-align: right">
+    <p>入室確認</p>
+</div>
+<div class="boxes">
+  <input type="checkbox" id="box-1">
+  <label for="box-1">37.5℃ 以下ですか？</label>
+
+  <input type="checkbox" id="box-2">
+  <label for="box-2">バスを利用していますか？</label>
+</div>
+<div style="text-align: center">
+    <a href='qr_reading' class="btn btn--ok">O K</a>
+</div>
+</body>
+</html>
